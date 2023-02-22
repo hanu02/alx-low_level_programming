@@ -1,13 +1,13 @@
 #include "main.h"
  /**
-  *Main - Write a function that prints 10 times the alphabet
+  *Main - Write a function that prints 10 times the alphabet, in lowercase, foll
   *Return : Always 0.
  */
 void print_alphabet_x10(void)
 {
 char c;
 int i = 0;
-while (i <= 0)
+while (i <= 9)
 {
 	for (c = 'a'; c <= 'z'; c++)
 	{
