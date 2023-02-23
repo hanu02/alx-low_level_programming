@@ -3,7 +3,7 @@
  * main - prints alpha in lower case
  * Return: Always 0
  */
-main(void)
+int main(void)
 {
 char low;
 for (low = 'a'; low <= 'z'; ++low)
