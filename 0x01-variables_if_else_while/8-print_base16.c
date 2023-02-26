@@ -8,10 +8,10 @@ int main(void)
 {
 int i = 0;
 char letter;
-while (i <= 9)
-putchar( i);
+while (i < 10)
+putchar((i % 10) + '0');
 ++i;
-for ( letter = 'a' ; letter <= 'f' ; ++letter)
+for (letter = 'a' ; letter <= 'f' ; ++letter)
 putchar('\n');
 return (0);
 }
