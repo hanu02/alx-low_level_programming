@@ -4,9 +4,9 @@
  * @str : The string to get the length of
  * Return : The length of @str.
  */
-size_tstrlen(const char *str)
+size_strlen(const char *str)
 {
-size_t lengthe = 0;
+size_t length = 0;
 while (*str++)
 	length++;
 return (lengthe);
