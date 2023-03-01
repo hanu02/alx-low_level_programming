@@ -9,9 +9,9 @@ char b;
 int i = 0;
 while (i <= 9)
 {
-for (b = 'a' ; b <= 'z' ++b)
+for (b = 'a' ; b <= 'z'; ++b)
 _putchar(b);
 _putchar ('\n');
-++i
+++i;
 }
 }
