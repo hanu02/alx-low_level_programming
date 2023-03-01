@@ -1,19 +1,15 @@
 #include "main.h"
- /**
-  *Main - Write a function that prints 10 times the alphabet, in lowercase, foll
-  *Return : Always 0.
+/**
+  *Main - Write a function that prints 10 times the alphabet, in lowercase
+  *Return : void.
  */
 void print_alphabet_x10(void)
 {
-char c;
-int i = 0;
-while (i <= 9)
-{
-	for (c = 'a'; c <= 'z'; c++)
-	{
-	_putchar (c);
-	_putchar('\n');
-	i++;
-	}
-}
+char n;
+
+for (n = 'a' ; n <= 'z' ; ++n)
+while (n <= 10)
+n++;
+_putchar (n);
+_putchar ('\n');
 }
