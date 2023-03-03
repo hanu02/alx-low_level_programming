@@ -7,15 +7,13 @@
  */
 int main(void)
 {
-	int num = o;
-	if (num <= 9)
-	{
-		putchar(num);
-		putchar(',');
-		 putchar(' ');
-		 putchar ('\n');
-	}
-		 else 
-		 {
-			 return (0);
-		 }
+int num = 0;
+if (num <= 9)
+{
+putchar(num);
+putchar(',');
+putchar(' ');
+putchar ('\n');
+}	
+return (0);
+}
