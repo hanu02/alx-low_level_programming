@@ -1,14 +1,16 @@
 
 #include "main.h"
 /**
- * print_sigh - a function that sigh numbers
+ * print_sign - Prints the sign of a number.
  * @n : accepts numbers
- * Return : 1 if n is grater than zero, 0 if n is zero , -1 if n is less tan zero
+ * Return: 1 if the number is greater than zero,
+ *         0 if the number is zero,
+ *         -1 if the number is less than zero.
  */
 int print_sign(int n)
 {
 if (n > 0)
-{i
+{
 _putchar('+');
 return (1);
 }
